@@ -1,0 +1,4 @@
+
+public class abstract Conta {
+	public abstract static void deposita();
+}

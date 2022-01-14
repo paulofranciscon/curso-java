@@ -1,0 +1,17 @@
+package bytebank;
+
+public class TesteSacaValorNegativo {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.deposita(100);
+		System.out.println(if(conta.saca(500) {
+					System.out.println("Saque efetuado");
+					} else {
+						System.out.println("Saldo Insuficiente");
+					};
+		);
+					
+		System.out.println(conta.saldo);
+	}
+
+}
