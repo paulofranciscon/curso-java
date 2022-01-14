@@ -13,7 +13,7 @@ public class Fluxo {
 		System.out.println("Fim main");
 	}
 	
-	private static void metodo1() throws MinhaExcecao{
+	private static void metodo1() {
 		System.out.println("Inicio metodo1");
 		metodo2();
 		System.out.println("Fim metodo1");
@@ -21,7 +21,7 @@ public class Fluxo {
 	
 	private static void metodo2() throws MinhaExcecao {
 		System.out.println("Inicio metodo2");
-		throw new MinhaExcecao("Simulando lançamento erro");
+		throws new MinhaExcecao("Simulando lançamento erro")
 	}
 	
 }

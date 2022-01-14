@@ -21,7 +21,7 @@ public class Fluxo {
 	
 	private static void metodo2() throws MinhaExcecao {
 		System.out.println("Inicio metodo2");
-		throw new MinhaExcecao("Simulando lançamento erro");
+		throws new MinhaExcecao("Simulando lançamento erro");
 	}
 	
 }
